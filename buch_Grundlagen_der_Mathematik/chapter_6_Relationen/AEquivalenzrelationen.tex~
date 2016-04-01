@@ -1,0 +1,38 @@
+
+
+
+\section{Äquivalenzrelation}
+
+\subsection{Einführendes Beispiel}
+Oftmals verhalten sich verschiedene Objekte in bestimmten Aspekten gleich oder besitzen gleiche, beziehungsweise sehr ähnliche Eigenschaften. So ist das Ergebnis einer Drehung von $90^\circ$ dasselbe wie bei einer Drehung von $450^\circ$. Exemplare von Büchern derselben ISB-Nummer besitzen denselben Inhalt und Autor. In diesem Kapitel wirst du die mathematischen Werkzeuge kennen lernen, mit denen du solche Äquivalenzen zwischen Objekten einer Grundmenge sauber beschreiben kannst.
+
+Eine Beziehung, die die Gleichwertigkeit zwischen Objekten unter bestimmten Aspekten ausdrückt, wird \textit{Äquivalenzrelation} genannt. Wir werden sehen, dass folgende Relation auf der Grundmenge aller bisher gedruckter Buchexemplare eine Äquivalenzrelation ist:\\
+\noindent\hspace*{10mm}$x$ und $y$ besitzen dieselbe ISB-Nummer.\\
+
+Frage: Welche Eigenschaften besitzt diese Relation?
+
+Die Relation ist
+
+\begin{itemize}
+\item  \textit{reflexiv}: Für jedes Buchexemplar $x$ gilt: $x$ und $x$ besitzen dieselbe ISB-Nummer. Sprich: ein Buchexemplar hat immer dieselbe ISB-Nummer wie es selbst.
+\item  \textit{nicht irrefxiv}: Weil die Grundmenge nicht leer ist, gibt es mindestens ein Buchexemplar $x$. Dieses steht mit sich selbst in Relation, weil die Relation reflexiv ist, und damit ist die Relation nicht irreflexiv.
+\item  \textit{symmetrisch}: Wenn $x$ und $y$ dieselbe ISB-Nummer besitzen, dann besitzen auch $y$ und $x$ dieselbe ISB-Nummer.
+\item  \textit{nicht antisymmetsch}: Es gibt mindestens zwei verschiedene Buchexemplare $x$ und $y$, die dieselbe ISB-Nummer besitzen. Für diese beiden Exemplare steht zwar $x$ in Relation zu $y$ und $y$ in Relation zu $x$, aber es ist $x\ne y$.
+\item  \textit{transitiv}: Wenn die Buchexemplare $x$ und $y$ dieselbe ISB-Nummer besitzen und die Buchexemplare $y$ und $z$ dieselbe ISB-Nummer besitzen, dann besitzen auch $x$ und $z$ dieselbe ISB-Nummer.
+\item  \textit{nicht }linear: Nehme zwei verschiedene Buchexemplare $x$ und $y$, so dass beide eine verschiedene ISB-Nummer haben. Dann steht weder $x$ mit $y$ noch $y$ mit $x$ in Relation. Damit ist die Relation nicht linear.
+\end{itemize}
+
+Wir werden sehen, dass die Eigenschaften der Reflexivität, Symmetrie und Transitivität der obigen Relation, genau diejenigen sind, die hinreichend und notwendig für eine Äquivalenzrelation sind.
+
+Es gibt eine weitere Möglichkeit Äquivalenzrelationen zu beschreiben: Die Möglichkeit die Grundmenge in verschiedene disjunkte Teilmengen zu zerlegen. Nehmen wir wieder das obige Beispiel mit den Büchern. Stell dir vor, wir fassen alle Exemplare in eine Menge zusammen, die dieselbe ISB-Nummer besitzen. Es kommen also genau dann zwei Bücher $x$ und $y$ in dieselbe Menge, wenn sie dieselbe ISB-Nummer besitzen, wenn also $x$ in Relation zu $y$ steht. Eine so entstandene Teilmenge werden wir später \textit{Äquivalenzklasse} nennen.
+
+Das Ergebnis ist eine Zerlegung der Grundmenge aller gedruckter Buchexemplare in disjunkte Teilmengen. Jede dieser Teilmengen steht für ein konkretes Schriftwerk eines Autors. Denn jede ISB-Nummer bezeichnet eineindeutig ein solches Schriftwerk und jede Teilmenge enthält genau diejenigen Exemplare, die dieselbe ISB-Nummer besitzen. Man kann diese Teilmengen nun als neue Objekte betrachten. Dadurch erhältst du die Menge aller Schriftwerke. Jedes Schriftwerk ist dabei als Menge, nämlich der Menge aller Exemplare dieses Schriftwerks, modelliert. Durch eine Zerlegung einer Menge mit Hilfe einer Äquivalenzrelation können also neue Objekte modelliert werden (dies ist eine gängige Vorgehensweise in der Mathematik).
+
+
+
+\subsection{Definitionen}
+
+\subsubsection{Äquivalenzrelationen}
+\subsubsection{Äquivalenzklasse}
+\subsubsection{Zerlegung einer Menge}
+\subsection{Zusammenhang zwischen Äquivalenzrelation und der Zerlegung einer Menge}

@@ -1,0 +1,86 @@
+
+
+
+Problem:
+Wie stellt man <math></math> und ^\circ dar?
+Lösung:
+Math kann durch $ oder andere Latex Packages ersetzt werden.
+^\circ bleibt so.
+
+
+
+Problem:
+kursiv
+Lösung:
+ersetze '' durch /textit{}
+
+
+Problem:
+Vorlage {{-|...}}
+Lösung:
+Einrücken in Latex: \noindent\hspace*{10mm}
+
+
+
+
+Problem:
+Wann newline einfügen? Wie? Mit \\
+Lösung:
+
+
+
+
+Problem:
+Was ist mit dem Frage Template? Wie soll es im Buch dargestellt werden?
+Lösung:
+
+
+Problem:
+listen
+Lösung:
+listen müssen ein \begin{itemize} sowie \end{} und \items bekommen
+
+
+
+Problem:
+Bilder! Wo speichern? Wie einbinden? Welches layout?
+Lösung:
+
+
+Problem:
+
+Lösung:
+
+
+
+
+Problem:
+
+Lösung:
+
+
+
+Problem:
+
+Lösung:
+
+
+
+Problem:
+
+Lösung:
+
+
+
+Problem:
+
+Lösung:
+
+
+
+Problem:
+
+Lösung:
+
+
+
