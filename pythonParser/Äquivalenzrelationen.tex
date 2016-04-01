@@ -1,0 +1,1228 @@
+<html prefix="dc: http://purl.org/dc/terms/ mw: http://mediawiki.org/rdf/">
+ <head prefix="mwr: http://de.wikibooks.org/wiki/Special:Redirect/">
+  <meta content="0" property="mw:articleNamespace"/>
+  <meta content='text/html; charset=utf-8; profile="mediawiki.org/specs/html/1.2.0"' property="mw:html-content-type"/>
+  <link href="//de.wikibooks.org/wiki/Main_Page" rel="dc:isVersionOf"/>
+  <title>
+  </title>
+  <base href="//de.wikibooks.org/wiki/"/>
+  <link href="//de.wikibooks.org/w/load.php?modules=mediawiki.legacy.commonPrint,shared|mediawiki.skinning.elements|mediawiki.skinning.content|mediawiki.skinning.interface|skins.vector.styles|site|mediawiki.skinning.content.parsoid|ext.cite.style|ext.math.styles|mediawiki.raggett&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+ </head>
+ <body class="mw-content-ltr sitedir-ltr ltr mw-body mw-body-content mediawiki" dir="ltr" lang="de">
+  <h2>
+   Einführendes Beispiel
+  </h2>
+  <figure class="mw-default-size" typeof="mw:Image/Thumb">
+   <a href="./Datei:Drehung_um_90_Grad_und_um_450_Grad.svg">
+    <img data-file-height="201" data-file-type="drawing" data-file-width="375" height="118" resource="./Datei:Drehung_um_90_Grad_und_um_450_Grad.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Drehung_um_90_Grad_und_um_450_Grad.svg/220px-Drehung_um_90_Grad_und_um_450_Grad.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Drehung_um_90_Grad_und_um_450_Grad.svg/440px-Drehung_um_90_Grad_und_um_450_Grad.svg.png 2x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Drehung_um_90_Grad_und_um_450_Grad.svg/330px-Drehung_um_90_Grad_und_um_450_Grad.svg.png 1.5x" width="220"/>
+   </a>
+   <figcaption>
+    Eine Drehung um 90° hat dasselbe Ergebnis wie eine Drehung um 450°.
+   </figcaption>
+  </figure>
+  <p>
+   Oftmals verhalten sich verschiedene Objekte in bestimmten Aspekten gleich oder besitzen gleiche, beziehungsweise sehr ähnliche Eigenschaften. So ist das Ergebnis einer Drehung von
+   $90^\circ$
+   dasselbe wie bei einer Drehung von
+   $450^\circ$
+   . Exemplare von Büchern derselben ISB-Nummer besitzen denselben Inhalt und Autor. In diesem Kapitel wirst du die mathematischen Werkzeuge kennen lernen, mit denen du solche Äquivalenzen zwischen Objekten einer Grundmenge sauber beschreiben kannst.
+  </p>
+  <figure class="mw-default-size" typeof="mw:Image/Thumb">
+   <a href="./Datei:Exemplare_von_Büchern_mit_eingezeichneter_Äquivalenzrelation.svg">
+    <img data-file-height="826" data-file-type="drawing" data-file-width="1284" height="142" resource="./Datei:Exemplare_von_Büchern_mit_eingezeichneter_Äquivalenzrelation.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Exemplare_von_B%C3%BCchern_mit_eingezeichneter_%C3%84quivalenzrelation.svg/220px-Exemplare_von_B%C3%BCchern_mit_eingezeichneter_%C3%84quivalenzrelation.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Exemplare_von_B%C3%BCchern_mit_eingezeichneter_%C3%84quivalenzrelation.svg/440px-Exemplare_von_B%C3%BCchern_mit_eingezeichneter_%C3%84quivalenzrelation.svg.png 2x, //upload.wikimedia.org/wikipedia/commons/thumb/7/78/Exemplare_von_B%C3%BCchern_mit_eingezeichneter_%C3%84quivalenzrelation.svg/330px-Exemplare_von_B%C3%BCchern_mit_eingezeichneter_%C3%84quivalenzrelation.svg.png 1.5x" width="220"/>
+   </a>
+   <figcaption>
+    Menge mit acht Buchexemplaren und eingezeichneter Äquivalenzrelation „
+    $x$
+    und
+    $y$
+    besitzen dieselbe ISB-Nummer“ als Pfeildiagramm.
+   </figcaption>
+  </figure>
+  <p>
+   Eine Beziehung, die die Gleichwertigkeit zwischen Objekten unter bestimmten Aspekten ausdrückt, wird
+   <i>
+    Äquivalenzrelation
+   </i>
+   genannt. Wir werden sehen, dass folgende Relation auf der Grundmenge aller bisher gedruckter Buchexemplare eine Äquivalenzrelation ist:
+  </p>
+  <template name="-">
+   <param name="1">
+    <p>
+    </p>
+   </param>
+  </template>
+  <template name="frage
+ ">
+   <param name="antwort">
+    <p>
+     Die Relation ist
+    </p>
+    <ul>
+     <li>
+      <i>
+       reflexiv:
+      </i>
+      Für jedes Buchexemplar
+      $x$
+      gilt:
+      $x$
+      und
+      $x$
+      besitzen dieselbe ISB-Nummer. Sprich: ein Buchexemplar hat immer dieselbe ISB-Nummer wie es selbst.
+     </li>
+     <li>
+      <i>
+       nicht irreflexiv:
+      </i>
+      Weil die Grundmenge nicht leer ist, gibt es mindestens ein Buchexemplar
+     </li>
+     <li>
+      <i>
+       symmetrisch:
+      </i>
+      Wenn
+      $x$
+      und
+      $y$
+      dieselbe ISB-Nummer besitzen, dann besitzen auch
+      $y$
+      und
+     </li>
+     <li>
+      <i>
+       nicht antisymmetrisch:
+      </i>
+      Es gibt mindestens zwei verschiedene Buchexemplare
+      $x$
+      und
+      $y$
+      , die dieselbe ISB-Nummer besitzen. Für diese beiden Exemplare steht zwar
+      $x$
+      in Relation zu
+      $y$
+      und
+      $x$
+      , aber es ist
+      $x\ne y$
+      .
+     </li>
+     <li>
+      <i>
+       transitiv:
+      </i>
+      Wenn die Buchexemplare
+      $y$
+      dieselbe ISB-Nummer besitzen und die Buchexemplare
+      $y$
+      und
+      $x$
+      und
+      $z$
+      dieselbe ISB-Nummer.
+     </li>
+     <li>
+      <i>
+       nicht linear:
+      </i>
+      Nehme zwei verschiedene Buchexemplare
+      $x$
+      und
+      $x$
+      mit
+      $y$
+      noch
+     </li>
+    </ul>
+   </param>
+   <param name="frage">
+    <p>
+     Welche Eigenschaften besitzt diese Relation?
+    </p>
+   </param>
+   <param name="einrückung">
+    <p>
+     nein
+    </p>
+   </param>
+  </template>
+  <p>
+   Wir werden sehen, dass die Eigenschaften der Reflexivität, Symmetrie und Transitivität der obigen Relation, genau diejenigen sind, die hinreichend und notwendig für eine Äquivalenzrelation sind.
+  </p>
+  <figure class="mw-default-size" typeof="mw:Image/Thumb">
+   <a href="./Datei:Exemplare_von_Bücher_mit_eingezeichneter_Äquivalenzrelation_und_Äquivalenzklassen.svg">
+    <img data-file-height="826" data-file-type="drawing" data-file-width="1284" height="142" resource="./Datei:Exemplare_von_Bücher_mit_eingezeichneter_Äquivalenzrelation_und_Äquivalenzklassen.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Exemplare_von_B%C3%BCcher_mit_eingezeichneter_%C3%84quivalenzrelation_und_%C3%84quivalenzklassen.svg/220px-Exemplare_von_B%C3%BCcher_mit_eingezeichneter_%C3%84quivalenzrelation_und_%C3%84quivalenzklassen.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Exemplare_von_B%C3%BCcher_mit_eingezeichneter_%C3%84quivalenzrelation_und_%C3%84quivalenzklassen.svg/440px-Exemplare_von_B%C3%BCcher_mit_eingezeichneter_%C3%84quivalenzrelation_und_%C3%84quivalenzklassen.svg.png 2x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Exemplare_von_B%C3%BCcher_mit_eingezeichneter_%C3%84quivalenzrelation_und_%C3%84quivalenzklassen.svg/330px-Exemplare_von_B%C3%BCcher_mit_eingezeichneter_%C3%84quivalenzrelation_und_%C3%84quivalenzklassen.svg.png 1.5x" width="220"/>
+   </a>
+   <figcaption>
+    Menge von acht Buchexemplaren, die durch die Äquivalenzrelation „
+    $x$
+    und
+    $y$
+    besitzen dieselbe ISB-Nummer“ in Äquivalenzklassen zerlegt wurde.
+   </figcaption>
+  </figure>
+  <p>
+   Es gibt eine weitere Möglichkeit Äquivalenzrelationen zu beschreiben: Die Möglichkeit die Grundmenge in verschiedene disjunkte Teilmengen zu zerlegen. Nehmen wir wieder das obige Beispiel mit den Büchern. Stell dir vor, wir fassen alle Exemplare in eine Menge zusammen, die dieselbe ISB-Nummer besitzen. Es kommen also genau dann zwei Bücher
+   $x$
+   und
+   $y$
+   in dieselbe Menge, wenn sie dieselbe ISB-Nummer besitzen, wenn also
+   $x$
+   in Relation zu
+   $y$
+   steht. Eine so entstandene Teilmenge werden wir später
+   <i>
+    Äquivalenzklasse
+   </i>
+   nennen.
+  </p>
+  <p>
+   Das Ergebnis ist eine Zerlegung der Grundmenge aller gedruckter Buchexemplare in disjunkte Teilmengen. Jede dieser Teilmengen steht für ein konkretes Schriftwerk eines Autors. Denn jede ISB-Nummer bezeichnet eineindeutig ein solches Schriftwerk und jede Teilmenge enthält genau diejenigen Exemplare, die dieselbe ISB-Nummer besitzen. Man kann diese Teilmengen nun als neue Objekte betrachten. Dadurch erhältst du die Menge aller Schriftwerke. Jedes Schriftwerk ist dabei als Menge, nämlich der Menge aller Exemplare dieses Schriftwerks, modelliert. Durch eine Zerlegung einer Menge mit Hilfe einer Äquivalenzrelation können also neue Objekte modelliert werden (dies ist eine gängige Vorgehensweise in der Mathematik).
+  </p>
+  <h2>
+   Definitionen
+  </h2>
+  <h3>
+   Äquivalenzrelation
+  </h3>
+  <p>
+   Eine Äquivalenzrelation ist folgendermaßen definiert:
+  </p>
+  <template name="definition
+ ">
+   <param name="definition">
+    <p>
+     Eine Äquivalenzrelation ist eine homogene, binäre Relation auf einer Grundmenge, die folgende Eigenschaften besitzt:
+    </p>
+    <ul>
+     <li>
+      reflexiv
+     </li>
+     <li>
+      symmetrisch
+     </li>
+     <li>
+      transitiv
+     </li>
+    </ul>
+   </param>
+   <param name="titel">
+    <p>
+     Äquivalenzrelation
+    </p>
+   </param>
+  </template>
+  <p>
+   Zwei Elemente, die bezüglich einer Äquivalenzrelation in Relation stehen, heißen
+   <i>
+    äquivalent
+   </i>
+   . Wenn zwei Elemente
+   $x$
+   und
+   $y$
+   äquivalent zueinander bezüglich einer Äquivalenzrelation
+   $R$
+   sind, schreibt man oft
+   $x\sim_R y$
+   oder einfach
+   $x\sim y$
+   anstatt der sonst üblichen Schreibweise
+   $x\,R\,y$
+   beziehungsweise
+   $(x,y)\in R$
+   .
+  </p>
+  <template name="frage
+ ">
+   <param name="antwort">
+    <p>
+     Um zu entscheiden, ob eine Relation eine Äquivalenzrelation ist, musst du folgende Fragen beantworten:
+    </p>
+    <figure class="mw-halign-center" typeof="mw:Image">
+     <a href="./Datei:Entscheidungsbaum_zum_Nachweis_von_Äquivalenzrelationen.svg">
+      <img data-file-height="237" data-file-type="drawing" data-file-width="543" height="153" resource="./Datei:Entscheidungsbaum_zum_Nachweis_von_Äquivalenzrelationen.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Entscheidungsbaum_zum_Nachweis_von_%C3%84quivalenzrelationen.svg/350px-Entscheidungsbaum_zum_Nachweis_von_%C3%84quivalenzrelationen.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Entscheidungsbaum_zum_Nachweis_von_%C3%84quivalenzrelationen.svg/700px-Entscheidungsbaum_zum_Nachweis_von_%C3%84quivalenzrelationen.svg.png 2x, //upload.wikimedia.org/wikipedia/commons/thumb/6/60/Entscheidungsbaum_zum_Nachweis_von_%C3%84quivalenzrelationen.svg/525px-Entscheidungsbaum_zum_Nachweis_von_%C3%84quivalenzrelationen.svg.png 1.5x" width="350"/>
+     </a>
+     <figcaption>
+      Entscheidungsbaum zum Nachweis von Äquivalenzrelationen
+     </figcaption>
+    </figure>
+   </param>
+   <param name="frage">
+    <p>
+     Was musst du tun, wenn du entscheiden sollst, ob eine Relation eine Äquivalenzrelation ist oder nicht?
+    </p>
+   </param>
+   <param name="typ">
+    <p>
+     Verständnisfrage
+    </p>
+   </param>
+  </template>
+  <template name="frage
+ ">
+   <param name="antwort">
+    <p>
+     Antwort:
+    </p>
+    <ol>
+     <li>
+      Äquivalenzrelation
+     </li>
+     <li>
+      keine Äquivalenzrelation (die Relation ist nicht symmetrisch – so ist zwar
+     </li>
+     <li>
+      keine Äquivalenzrelation (die Relation ist nicht reflexiv – beispielsweise steht 2 nicht mit sich selbst in Relation)
+     </li>
+     <li>
+      Äquivalenzrelation
+     </li>
+     <li>
+      Äquivalenzrelation
+     </li>
+    </ol>
+   </param>
+   <param name="frage">
+    <p>
+     Welche der folgenden Relationen ist eine Äquivalenzrelation?
+    </p>
+    <ol>
+     <li>
+      „
+      $x$
+      und
+     </li>
+     <li>
+      „
+      $\Z$
+      der ganzen Zahlen
+     </li>
+     <li>
+      „
+      $x$
+      und
+      $y$
+      sind ungerade“ auf der Menge
+      $\N_{\ge1}$
+     </li>
+     <li>
+      „
+      $x$
+      und
+      $\N_{\ge1}$
+     </li>
+     <li>
+      „
+     </li>
+    </ol>
+   </param>
+   <param name="typ">
+    <p>
+     Verständnisfrage
+    </p>
+   </param>
+   <param name="einrückung">
+    <p>
+     nein
+    </p>
+   </param>
+  </template>
+  <template name="frage
+ ">
+   <param name="antwort">
+    <p>
+     Sei
+     $x,y\in M$
+     beliebig. Da
+     $R$
+     linear ist, steht entweder
+     $x$
+     . Sei oBdA
+     $x\,R\,y$
+     . Auf Grund der Symmetrie ist dann aber auch
+     $y\,R\,x$
+     . Damit steht jedes Element mit jedem anderen Element in Relation.
+    </p>
+    <p>
+     Es gibt also genau eine lineare Relation auf einer Grundmenge
+     $M$
+     , nämlich
+     $R=M\times M$
+     , bei der jedes Element mit jedem anderen in Relation steht.
+    </p>
+   </param>
+   <param name="frage">
+    <p>
+     Wie viele lineare Äquivalenzrelationen auf einer Grundmenge
+    </p>
+   </param>
+   <param name="typ">
+    <p>
+     Verständnisfrage
+    </p>
+   </param>
+  </template>
+  <h3>
+   Äquivalenzklasse
+  </h3>
+  <p>
+   Im obigen Beispiel haben wir durch die Äquivalenzrelation die Grundmenge in disjunkte Teilmengen zerlegt, indem wir alle Buchexemplare in einer Teilmenge zusammengefasst haben, die in Relation steht. Eine solche Teilmenge wird
+   <i>
+    Äquivalenzklasse
+   </i>
+   genannt und mit
+   $[x]$
+   bezeichnet:
+  </p>
+  <template name="definition
+ ">
+   <param name="definition">
+    <p>
+     Eine Äquivalenzklasse
+    </p>
+    <template name="formel">
+     <param name="1">
+      <p>
+      </p>
+     </param>
+    </template>
+   </param>
+   <param name="titel">
+    <p>
+     Äquivalenzklasse
+    </p>
+   </param>
+  </template>
+  <p>
+   Wenn du die Relation explizit angeben musst, kannst du auch
+   $[x]_R$
+   schreiben. Es ist dann
+  </p>
+  <template name="formel">
+   <param name="1">
+    <p>
+    </p>
+   </param>
+  </template>
+  <p>
+   Das Element
+   $x$
+   in der Schreibweise
+   $[x]$
+   nennt man
+   <i>
+    Repräsentant
+   </i>
+   oder
+   <i>
+    Vertreter
+   </i>
+   . Ist unsere obige Definition für Äquivalenzklassen korrekt im Sinne, dass
+   $[x]=[y]$
+   wenn
+   $x$
+   und
+   $y$
+   äquivalent zueinander sind? Dies beantwortet der folgende Satz:
+  </p>
+  <template name="satz
+ ">
+   <param name="beweis">
+    <p>
+     Sei
+     $x\sim y$
+     . Zu zeigen ist, dass
+     $[x]\subseteq [y]$
+     und
+     $a\in [x]$
+     beliebig. Es gilt damit
+     $a\sim x$
+     . Da außerdem
+     $x\sim y$
+     ist, folgt aus der Transitivität der Äquivalenzrelation, dass auch
+     $a\sim y$
+     ist. Dies bedeutet aber
+     $a\in [y]$
+     . Da
+     $a\in [x]$
+     beliebig war, ist
+     $[x]\subseteq[y]$
+     .
+    </p>
+    <p>
+     Dass auch
+    </p>
+   </param>
+   <param name="satz">
+    <p>
+     Ist
+    </p>
+   </param>
+  </template>
+  <p>
+   Es gilt auch die Umkehrung des obigen Satzes:
+  </p>
+  <template name="satz">
+   <param name="beweis">
+    <p>
+     Sei
+     $[x]=[y]$
+     . Damit ist
+     $[x]\subseteq [y]$
+     , also
+     $x\in[x]$
+     , da
+     $x\sim x$
+     aufgrund der Reflexivität der Äquivalenzrelation. Daraus folgt, dass
+     $x\in [y]$
+     und somit nach Definition
+    </p>
+   </param>
+   <param name="satz">
+    <p>
+     Aus
+    </p>
+   </param>
+  </template>
+  <p>
+   Zusammen ergeben die vorherigen beiden Sätze folgenden wichtigen Satz:
+  </p>
+  <template name="satz
+ ">
+   <param name="satz">
+    <p>
+     Für Äquivalenzklassen und deren Vertreter gilt folgender Zusammenhang:
+    </p>
+    <template name="formel">
+     <param name="1">
+      <p>
+      </p>
+     </param>
+    </template>
+   </param>
+   <param name="titel">
+    <p>
+     Zusammenhang zwischen Äquivalenz der Repräsentanten und der Äquivalenzklassen
+    </p>
+   </param>
+  </template>
+  <template name="frage
+ ">
+   <param name="antwort">
+    <p>
+     Antwort:
+    </p>
+    <ol>
+     <li>
+      Die Menge der Äquivalenzklassen ist die Menge aller Klassen der Schule. Dabei ist jede Klasse als Menge aller Schüler modelliert, die diese Klasse besuchen.
+     </li>
+     <li>
+      Es gibt zwei Äquivalenzklassen: Die Menge
+      $\N_{\ge1}$
+      in die Menge der geraden und in die Menge der ungeraden Zahlen.
+     </li>
+     <li>
+      Jede Äquivalenzklasse ist einelementig. Die Grundmenge zerfällt also in die Menge
+      $\{\,\{x\}\,|\,x\in M\}$
+      (Beachte, dass dies eine Menge von
+      <i>
+       einelementigen Mengen
+      </i>
+      ist. Die Zerlegungsmenge ist ungleich der Grundmenge)
+     </li>
+    </ol>
+   </param>
+   <param name="frage">
+    <p>
+     Wie sehen die Äquivalenzklassen der folgenden Äquivalenzrelationen aus:
+    </p>
+    <ol>
+     <li>
+      „
+      $y$
+      gehen in dieselbe Klasse“ auf der Menge aller Schüler einer Schule
+     </li>
+     <li>
+      „
+      $y$
+      besitzen denselben Rest bei der Division durch zwei“ auf der Menge
+      $\N_{\ge1}$
+     </li>
+     <li>
+      „
+     </li>
+    </ol>
+   </param>
+   <param name="typ">
+    <p>
+     Verständnisfrage
+    </p>
+   </param>
+   <param name="einrückung">
+    <p>
+     nein
+    </p>
+   </param>
+  </template>
+  <h3>
+   Zerlegung einer Menge
+   <template name="anker">
+    <param name="1">
+     <p>
+      Partition
+     </p>
+    </param>
+   </template>
+  </h3>
+  <p>
+   Oft haben wir bereits von der Zerlegung einer Menge gesprochen (welche in der Mengenlehre auch
+   <i>
+    Partition
+   </i>
+   genannt wird). Hier die Definition der Zerlegung einer Menge (im nächsten Abschnitt werden wir den Zusammenhang zwischen Äquivalenzrelation und der durch ihr definierten Zerlegung untersuchen):
+  </p>
+  <template name="definition
+ ">
+   <param name="definition">
+    <p>
+     Eine Zerlegung einer Menge
+     $P$
+     von Teilmengen von
+     $M$
+     , so dass
+    </p>
+    <ul>
+     <li>
+      die Vereinigung aller Mengen von
+      $M$
+      ergibt:
+     </li>
+     <li>
+      alle Mengen von
+      $P$
+      paarweise disjunkt sind:
+      $\forall A, B\in P: A\ne B \Rightarrow A \cap B = \emptyset$
+     </li>
+     <li>
+      alle Mengen von
+     </li>
+    </ul>
+   </param>
+   <param name="titel">
+    <p>
+     Zerlegung einer Menge
+    </p>
+   </param>
+  </template>
+  <h2>
+   Zusammenhang zwischen Äquivalenzrelationen und der Zerlegung einer Menge
+  </h2>
+  <p>
+   Wollen wir nun den Zusammenhang zwischen Äquivalenzrelationen und der Zerlegung einer Menge untersuchen. Im einführenden Beispiel haben wir gesehen, dass eine Äquivalenzrelation eine Zerlegung der Grundmenge definiert, indem man alle äquivalenten Elemente in einer Teilmenge, der Äquivalenzklasse, zusammenfasst. Eine solche Zerlegung einer Menge durch eine Äquivalenzrelation wird mit
+   ${M/{\sim}}$
+   bezeichnet und in bestimmten Kontexten der Mathematik
+   <i>
+    Quotientenraum
+   </i>
+   oder
+   <i>
+    Faktorraum
+   </i>
+   genannt. Die Zerlegung
+   ${M/{\sim}}$
+   der Grundmenge
+   $M$
+   ist also:
+  </p>
+  <template name="formel">
+   <param name="1">
+    <p>
+    </p>
+   </param>
+  </template>
+  <p>
+   Doch ist dies wirklich eine Zerlegung im Sinne der obigen Definition? Beweisen wir es:
+  </p>
+  <template name="satz
+ ">
+   <param name="satz">
+    <p>
+     Sei
+    </p>
+   </param>
+   <param name="titel">
+    <p>
+     Äquivalenzrelationen induzieren eine Zerlegung
+    </p>
+   </param>
+  </template>
+  <template name="beweis
+ ">
+   <param name="beweis">
+    <p>
+     Um zu zeigen, dass
+     ${M/{\sim}}:= \{ [x]\,|\,x\in M\}$
+     eine Zerlegung von
+     $M$
+     ist, müssen wir folgende Behauptungen beweisen:
+    </p>
+    <template name="beweisschritt
+ ">
+     <param name="ziel">
+      <p>
+      </p>
+     </param>
+     <param name="name">
+      <p>
+       1. Behauptung
+      </p>
+     </param>
+     <param name="beweisschritt">
+      <p>
+       Es ist genau dann
+       $\bigcup_{A\in P} A \subseteq M$
+       und wenn
+       $M\subseteq \bigcup_{A\in P} A$
+       ist.
+      </p>
+      <template name="beweisschritt
+ ">
+       <param name="ziel">
+        <p>
+        </p>
+       </param>
+       <param name="name">
+        <p>
+         1.1 Behauptung
+        </p>
+       </param>
+       <param name="beweisschritt">
+        <p>
+         Jede Äquivalenzklasse
+         $\bigcup_{A\in P} A$
+         eine Teilmenge von
+         $M$
+         .
+        </p>
+       </param>
+      </template>
+      <template name="beweisschritt
+ ">
+       <param name="ziel">
+        <p>
+        </p>
+       </param>
+       <param name="name">
+        <p>
+         1.2 Behauptung
+        </p>
+       </param>
+       <param name="beweisschritt">
+        <p>
+         Sei
+         $R$
+         das Element
+         $x$
+         in Relation zu sich selbst steht, ist
+         $[x]\in P$
+         und damit
+        </p>
+        <template name="formel">
+         <param name="1">
+          <p>
+          </p>
+         </param>
+        </template>
+        <p>
+         Da
+         $x$
+         beliebig war, ist
+         $M\subseteq \bigcup_{A\in P} A$
+         .
+        </p>
+       </param>
+      </template>
+     </param>
+    </template>
+    <template name="beweisschritt
+ ">
+     <param name="ziel">
+      <p>
+      </p>
+     </param>
+     <param name="name">
+      <p>
+       2. Behauptung
+      </p>
+     </param>
+     <param name="beweisschritt">
+      <p>
+       Seien
+       $A,B\in P$
+       mit
+       $A\ne B$
+       . Dann ist
+       $B=[y]$
+       für ein
+      </p>
+      <p>
+       <i>
+        Widerspruchsbeweis:
+       </i>
+       Sei
+       $a\in M$
+       mit
+       $a\in [y]$
+       und
+       $a\in [x]$
+       . Damit ist
+       $a\sim x$
+       und
+       $a\sim y$
+       . Aus der Transitivität folgt
+       $x\sim y$
+       und damit
+       $[x]=[y]$
+       aus dem Satz über den Zusammenhang zwischen Äquivalenzklassen und der Äquivalenz der Repräsentanten des vorherigem Abschnitts. Jedoch ist
+       $A=[x]=[y]=B$
+       ein Widerspruch zu Annahme
+       $A\ne B$
+       , so dass
+       $A\cap B=\emptyset$
+       sein muss.
+      </p>
+     </param>
+    </template>
+    <template name="beweisschritt
+ ">
+     <param name="ziel">
+      <p>
+      </p>
+     </param>
+     <param name="name">
+      <p>
+       3. Behauptung
+      </p>
+     </param>
+     <param name="beweisschritt">
+      <p>
+       Sei
+       $A=[x]$
+       für ein
+       $x\in M$
+       . Wegen der Reflexivität von der Äquivalenzrelation ist
+       $A=[x]\ne \emptyset$
+       ist.
+      </p>
+     </param>
+    </template>
+   </param>
+   <param name="titel">
+    <p>
+     Äquivalenzrelationen induzieren eine Zerlegung
+    </p>
+   </param>
+  </template>
+  <p>
+   Doch wie sieht es umgekehrt aus? Kannst du aus einer vorgegebenen Partition
+   $P$
+   einer Menge
+   $M$
+   so eine Äquivalenzrelation definieren, dass
+   ${M/{\sim}}=P$
+   ist?
+  </p>
+  <template name="frage
+ ">
+   <param name="antwort">
+    <p>
+     Damit die induzierte Menge der Äquivalenzrelation gleich der Partitionsmenge
+     $P$
+     sein kann, muss für alle
+    </p>
+    <template name="formel">
+     <param name="1">
+      <p>
+      </p>
+     </param>
+    </template>
+    <p>
+     Damit gibt es nur einen möglichen Kandidaten einer Äquivalenzrelation:
+    </p>
+    <template name="formel">
+     <param name="1">
+      <p>
+      </p>
+     </param>
+    </template>
+   </param>
+   <param name="frage">
+    <p>
+     Wie kann eine solche Äquivalenzrelation aussehen?
+    </p>
+   </param>
+  </template>
+  <template name="satz
+ ">
+   <param name="satz">
+    <p>
+     Sei
+     $P$
+     eine Zerlegung dieser Menge. Dann gibt es genau eine Äquivalenzrelation
+     $\sim$
+     , die diese Zerlegung induziert, für die also
+    </p>
+    <template name="formel">
+     <param name="1">
+      <p>
+      </p>
+     </param>
+    </template>
+   </param>
+   <param name="titel">
+    <p>
+     Jede Zerlegung induziert eine Äquivalenzrelation
+    </p>
+   </param>
+  </template>
+  <template name="beweis
+ ">
+   <param name="beweis">
+    <p>
+     Sei
+     $M$
+     eine Menge und
+     $P$
+     eine Zerlegung dieser Menge.
+    </p>
+    <template name="beweisschritt
+ ">
+     <param name="ziel">
+      <p>
+       Existenz einer Äquivalenzrelation, die diese Zerlegung induziert
+      </p>
+     </param>
+     <param name="beweisschritt">
+      <p>
+       Wir definieren die Relation
+       $\sim$
+       über folgende Definition:
+      </p>
+      <template name="formel">
+       <param name="1">
+        <p>
+        </p>
+       </param>
+      </template>
+      <template name="beweisschritt
+ ">
+       <param name="ziel">
+        <p>
+        </p>
+       </param>
+       <param name="name">
+        <p>
+         1. Behauptung
+        </p>
+       </param>
+       <param name="beweisschritt">
+        <template name="beweisschritt
+ ">
+         <param name="ziel">
+          <p>
+          </p>
+         </param>
+         <param name="name">
+          <p>
+           1.1 Behauptung
+          </p>
+         </param>
+         <param name="beweisschritt">
+          <p>
+           Sei
+           $P$
+           die Grundmenge ergibt, gibt es eine Menge
+           $A\in P$
+           mit
+          </p>
+          <template name="formel">
+           <param name="1">
+            <p>
+            </p>
+           </param>
+          </template>
+         </param>
+        </template>
+        <template name="beweisschritt
+ ">
+         <param name="ziel">
+          <p>
+          </p>
+         </param>
+         <param name="name">
+          <p>
+           1.2 Behauptung
+          </p>
+         </param>
+         <param name="beweisschritt">
+          <p>
+           Sei
+          </p>
+          <template name="formel">
+           <param name="1">
+            <p>
+            </p>
+           </param>
+          </template>
+         </param>
+        </template>
+        <template name="beweisschritt
+ ">
+         <param name="ziel">
+          <p>
+           $\sim$
+           ist transitiv
+          </p>
+         </param>
+         <param name="name">
+          <p>
+           1.3 Behauptung
+          </p>
+         </param>
+         <param name="beweisschritt">
+          <p>
+           Sei
+           $x,y,z\in M$
+           mit
+           $x\sim y$
+           und
+           $y\sim z$
+           . Dann gibt es ein
+           $A\in P$
+           und ein
+           $B\in P$
+           mit
+           $x,y\in A$
+           und
+           $y,z\in B$
+           . Damit ist
+           $A\cap B\ne \emptyset$
+           , da
+           $y$
+           sowohl ein Element von
+           $A$
+           als auch ein Element von
+           $B$
+           ist. Da
+           $P$
+           eine Partition ist, muss
+           $A=B$
+           sein. Daraus folgt
+           $x,z\in A=B$
+           und damit
+           $x\sim z$
+           .
+          </p>
+         </param>
+        </template>
+       </param>
+      </template>
+      <template name="beweisschritt
+ ">
+       <param name="ziel">
+        <p>
+         $\forall A\in P:\forall x\in A: [x]=A$
+        </p>
+       </param>
+       <param name="name">
+        <p>
+         2. Behauptung
+        </p>
+       </param>
+       <param name="beweisschritt">
+        <p>
+         Sei
+         $A\in P$
+         und
+         $x\in A$
+         beliebig.
+        </p>
+        <template name="beweisschritt
+ ">
+         <param name="ziel">
+          <p>
+           $[x] \subseteq A$
+          </p>
+         </param>
+         <param name="name">
+          <p>
+           2.1 Behauptung
+          </p>
+         </param>
+         <param name="beweisschritt">
+          <p>
+           Sei
+           $y\in [x]$
+           beliebig, also
+           $x,y\in B$
+           . Da
+           $x\in A$
+           und
+           $x\in B$
+           ist, ist
+           $A=B$
+           , weil verschiedene Mengen von
+           $P$
+           disjunkt sind. Damit ist
+           $y\in B=A$
+           , was zu beweisen war.
+          </p>
+         </param>
+        </template>
+        <template name="beweisschritt
+ ">
+         <param name="ziel">
+          <p>
+           $A\subseteq [x]$
+          </p>
+         </param>
+         <param name="name">
+          <p>
+           2.2 Behauptung
+          </p>
+         </param>
+         <param name="beweisschritt">
+          <p>
+           Sei
+           $y\in A$
+           beliebig. Damit ist sowohl
+           $x$
+           als auch
+           $A$
+           und damit
+           $y\sim x$
+           . Daraus folgt
+           $y\in [x]$
+           . Da
+           $y\in A$
+           beliebig war, ist
+          </p>
+         </param>
+        </template>
+        <p>
+         Aus den Behauptungen (2.1) und (2.2) folgt, dass
+         $[x]=A$
+         ist.
+        </p>
+       </param>
+      </template>
+      <template name="beweisschritt
+ ">
+       <param name="ziel">
+        <p>
+         $M/{\sim} = P$
+        </p>
+       </param>
+       <param name="name">
+        <p>
+         3. Behauptung
+        </p>
+       </param>
+       <param name="beweisschritt">
+        <template name="beweisschritt
+ ">
+         <param name="ziel">
+          <p>
+           $M/{\sim} \subseteq P$
+          </p>
+         </param>
+         <param name="name">
+          <p>
+           3.1 Behauptung
+          </p>
+         </param>
+         <param name="beweisschritt">
+          <p>
+           Sei
+           $\bigcup_{A\in P} A=M$
+           ist, gibt es ein
+           $A\in P$
+           mit
+           $x\in A$
+           . Aus der Behauptung (2) folgt, dass
+           $[x]=A\in P$
+           ist.
+          </p>
+         </param>
+        </template>
+        <template name="beweisschritt
+ ">
+         <param name="ziel">
+          <p>
+           $P \subseteq M/{\sim}$
+          </p>
+         </param>
+         <param name="name">
+          <p>
+           3.2 Behauptung
+          </p>
+         </param>
+         <param name="beweisschritt">
+          <p>
+           Sei
+           $A\in P$
+           beliebig. Da alle Mengen aus
+           $P$
+           nach Definition nicht leer sind, gibt es ein
+           $x\in M$
+           mit
+           $x\in A$
+           . Aus Behauptung (2) folgt, dass
+           $A=[x]\in M/{\sim}$
+           ist.
+          </p>
+         </param>
+        </template>
+       </param>
+      </template>
+      <p>
+       Die Behauptung (3) folgt direkt aus Behauptung (3.1) und (3.2).
+      </p>
+     </param>
+    </template>
+    <template name="beweisschritt
+ ">
+     <param name="ziel">
+      <p>
+       Eindeutigkeit dieser Äquivalenzrelation
+      </p>
+     </param>
+     <param name="beweisschritt">
+      <p>
+       Sei
+       $\sim_2$
+       eine weitere Äquivalenzrelation mit
+       $P=M/{\sim_2}$
+       . Sei
+       $x,y\in M$
+       beliebig. Es gilt dann
+      </p>
+      <template name="formel">
+       <param name="1">
+        <p>
+         $\begin{align} x\sim_2 y &amp; \Leftrightarrow \exists [a] \in M/{\sim_2}: x,y\in [a] \\[0.3em] &amp; \ \left\downarrow\ P=M/{\sim_2}\right.\\[0.3em] &amp; \Leftrightarrow \exists A\in P: x,y\in A \end{align}$
+        </p>
+       </param>
+      </template>
+     </param>
+    </template>
+   </param>
+   <param name="titel">
+    <p>
+     Jede Zerlegung induziert eine Äquivalenzrelation
+    </p>
+   </param>
+  </template>
+ </body>
+</html>
