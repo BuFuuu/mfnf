@@ -6,6 +6,15 @@
 \subsection{Einführendes Beispiel}
 Oftmals verhalten sich verschiedene Objekte in bestimmten Aspekten gleich oder besitzen gleiche, beziehungsweise sehr ähnliche Eigenschaften. So ist das Ergebnis einer Drehung von $90^\circ$ dasselbe wie bei einer Drehung von $450^\circ$. Exemplare von Büchern derselben ISB-Nummer besitzen denselben Inhalt und Autor. In diesem Kapitel wirst du die mathematischen Werkzeuge kennen lernen, mit denen du solche Äquivalenzen zwischen Objekten einer Grundmenge sauber beschreiben kannst.
 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.33\textwidth, angle=30]{chapter_6_Relationen/Bilder/file.pdf}
+    \caption{um 30 Grad gedreht}
+    \label{fig1}
+\end{figure}
+
+
 Eine Beziehung, die die Gleichwertigkeit zwischen Objekten unter bestimmten Aspekten ausdrückt, wird \textit{Äquivalenzrelation} genannt. Wir werden sehen, dass folgende Relation auf der Grundmenge aller bisher gedruckter Buchexemplare eine Äquivalenzrelation ist:\\
 \noindent\hspace*{10mm}$x$ und $y$ besitzen dieselbe ISB-Nummer.\\
 

@@ -1,8 +1,8 @@
 
 
 
-
-pdflatex Grundlagen_der_Mathematik.tex 
+Grundlagen_der_Mathematik:
+	pdflatex Grundlagen_der_Mathematik.tex 
 
 .PHONY: clean
 clean:

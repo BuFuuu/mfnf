@@ -1,0 +1,21 @@
+%
+% provide common figure styles
+%
+% count reference in captions toolatex schriftfarbe
+\makeatletter
+\newcommand\figcaption{\def\@captype{figure}\caption}
+\makeatother
+% single figures
+\newcommand{\pic}[5][~]{%
+  \begin{figure}[htbp]%
+    \begin{center}%
+      \includegraphics[width=#3]{#2}%
+      \ifthenelse{\equal{#1}{~}}{%
+        \figcaption{#4}%
+      }{%
+        \figcaption[#1]{#4}%
+      }%
+      \label{#5}%
+    \end{center}%
+  \end{figure}%
+}

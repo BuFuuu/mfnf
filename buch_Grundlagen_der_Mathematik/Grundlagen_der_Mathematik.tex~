@@ -1,10 +1,9 @@
 
 
-
-
 \documentclass[a4paper]{book} %Better use memoir?!
 \usepackage[ngerman]{babel}
-
+\usepackage{graphicx}
+\usepackage{svg}
 %\usepackage[latin1]{inputenc}
 \usepackage[utf8]{inputenc} %Dateinamen mit Umlauten compilieren nicht
 
@@ -14,6 +13,9 @@
 
 
 
+
+\newcommand{\fett}[1]{{\bf #1}}
+%
 \begin{document}
 
 
@@ -24,11 +26,11 @@
 \maketitle
 
 
-\include{chapter_1_Grundlagen_der_Mathematik?/main}
+%\include{chapter_1_Grundlagen_der_Mathematik?/main}
 
 %\include{chapter_2_Einführung_in_die_Logik/main}
 
-%\include{chapter_6_Relationen/main}
+\include{chapter_6_Relationen/main}
 
 
 \end{document}

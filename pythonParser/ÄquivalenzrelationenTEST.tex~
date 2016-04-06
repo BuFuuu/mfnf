@@ -22,11 +22,9 @@
   </figure>
   <p>
    Oftmals verhalten sich verschiedene Objekte in bestimmten Aspekten gleich oder besitzen gleiche, beziehungsweise sehr ähnliche Eigenschaften. So ist das Ergebnis einer Drehung von
-   <math tex="90^\circ">
-   </math>
+   $90^\circ$
    dasselbe wie bei einer Drehung von
-   <math tex="450^\circ">
-   </math>
+   $450^\circ$
    . Exemplare von Büchern derselben ISB-Nummer besitzen denselben Inhalt und Autor. In diesem Kapitel wirst du die mathematischen Werkzeuge kennen lernen, mit denen du solche Äquivalenzen zwischen Objekten einer Grundmenge sauber beschreiben kannst.
   </p>
   <figure class="mw-default-size" typeof="mw:Image/Thumb">
@@ -35,11 +33,9 @@
    </a>
    <figcaption>
     Menge mit acht Buchexemplaren und eingezeichneter Äquivalenzrelation „
-    <math tex="x">
-    </math>
+    $x$
     und
-    <math tex="y">
-    </math>
+    $y$
     besitzen dieselbe ISB-Nummer“ als Pfeildiagramm.
    </figcaption>
   </figure>
@@ -68,14 +64,11 @@
        reflexiv:
       </i>
       Für jedes Buchexemplar
-      <math tex="x">
-      </math>
+      $x$
       gilt:
-      <math tex="x">
-      </math>
+      $x$
       und
-      <math tex="x">
-      </math>
+      $x$
       besitzen dieselbe ISB-Nummer. Sprich: ein Buchexemplar hat immer dieselbe ISB-Nummer wie es selbst.
      </li>
      <li>
@@ -89,14 +82,11 @@
        symmetrisch:
       </i>
       Wenn
-      <math tex="x">
-      </math>
+      $x$
       und
-      <math tex="y">
-      </math>
+      $y$
       dieselbe ISB-Nummer besitzen, dann besitzen auch
-      <math tex="y">
-      </math>
+      $y$
       und
      </li>
      <li>
@@ -104,23 +94,17 @@
        nicht antisymmetrisch:
       </i>
       Es gibt mindestens zwei verschiedene Buchexemplare
-      <math tex="x">
-      </math>
+      $x$
       und
-      <math tex="y">
-      </math>
+      $y$
       , die dieselbe ISB-Nummer besitzen. Für diese beiden Exemplare steht zwar
-      <math tex="x">
-      </math>
+      $x$
       in Relation zu
-      <math tex="y">
-      </math>
+      $y$
       und
-      <math tex="x">
-      </math>
+      $x$
       , aber es ist
-      <math tex="x\ne y">
-      </math>
+      $x\ne y$
       .
      </li>
      <li>
@@ -128,17 +112,13 @@
        transitiv:
       </i>
       Wenn die Buchexemplare
-      <math tex="y">
-      </math>
+      $y$
       dieselbe ISB-Nummer besitzen und die Buchexemplare
-      <math tex="y">
-      </math>
+      $y$
       und
-      <math tex="x">
-      </math>
+      $x$
       und
-      <math tex="z">
-      </math>
+      $z$
       dieselbe ISB-Nummer.
      </li>
      <li>
@@ -146,14 +126,11 @@
        nicht linear:
       </i>
       Nehme zwei verschiedene Buchexemplare
-      <math tex="x">
-      </math>
+      $x$
       und
-      <math tex="x">
-      </math>
+      $x$
       mit
-      <math tex="y">
-      </math>
+      $y$
       noch
      </li>
     </ul>
@@ -178,27 +155,21 @@
    </a>
    <figcaption>
     Menge von acht Buchexemplaren, die durch die Äquivalenzrelation „
-    <math tex="x">
-    </math>
+    $x$
     und
-    <math tex="y">
-    </math>
+    $y$
     besitzen dieselbe ISB-Nummer“ in Äquivalenzklassen zerlegt wurde.
    </figcaption>
   </figure>
   <p>
    Es gibt eine weitere Möglichkeit Äquivalenzrelationen zu beschreiben: Die Möglichkeit die Grundmenge in verschiedene disjunkte Teilmengen zu zerlegen. Nehmen wir wieder das obige Beispiel mit den Büchern. Stell dir vor, wir fassen alle Exemplare in eine Menge zusammen, die dieselbe ISB-Nummer besitzen. Es kommen also genau dann zwei Bücher
-   <math tex="x">
-   </math>
+   $x$
    und
-   <math tex="y">
-   </math>
+   $y$
    in dieselbe Menge, wenn sie dieselbe ISB-Nummer besitzen, wenn also
-   <math tex="x">
-   </math>
+   $x$
    in Relation zu
-   <math tex="y">
-   </math>
+   $y$
    steht. Eine so entstandene Teilmenge werden wir später
    <i>
     Äquivalenzklasse
@@ -247,26 +218,19 @@
     äquivalent
    </i>
    . Wenn zwei Elemente
-   <math tex="x">
-   </math>
+   $x$
    und
-   <math tex="y">
-   </math>
+   $y$
    äquivalent zueinander bezüglich einer Äquivalenzrelation
-   <math tex="R">
-   </math>
+   $R$
    sind, schreibt man oft
-   <math tex="x\sim_R y">
-   </math>
+   $x\sim_R y$
    oder einfach
-   <math tex="x\sim y">
-   </math>
+   $x\sim y$
    anstatt der sonst üblichen Schreibweise
-   <math tex="x\,R\,y">
-   </math>
+   $x\,R\,y$
    beziehungsweise
-   <math tex="(x,y)\in R">
-   </math>
+   $(x,y)\in R$
    .
   </p>
   <template name="frage
@@ -326,34 +290,27 @@
     <ol>
      <li>
       „
-      <math tex="x">
-      </math>
+      $x$
       und
      </li>
      <li>
       „
-      <math tex="\Z">
-      </math>
+      $\Z$
       der ganzen Zahlen
      </li>
      <li>
       „
-      <math tex="x">
-      </math>
+      $x$
       und
-      <math tex="y">
-      </math>
+      $y$
       sind ungerade“ auf der Menge
-      <math tex="\N_{\ge1}">
-      </math>
+      $\N_{\ge1}$
      </li>
      <li>
       „
-      <math tex="x">
-      </math>
+      $x$
       und
-      <math tex="\N_{\ge1}">
-      </math>
+      $\N_{\ge1}$
      </li>
      <li>
       „
@@ -376,29 +333,22 @@
    <param name="antwort">
     <p>
      Sei
-     <math tex="x,y\in M">
-     </math>
+     $x,y\in M$
      beliebig. Da
-     <math tex="R">
-     </math>
+     $R$
      linear ist, steht entweder
-     <math tex="x">
-     </math>
+     $x$
      . Sei oBdA
-     <math tex="x\,R\,y">
-     </math>
+     $x\,R\,y$
      . Auf Grund der Symmetrie ist dann aber auch
-     <math tex="y\,R\,x">
-     </math>
+     $y\,R\,x$
      . Damit steht jedes Element mit jedem anderen Element in Relation.
     </p>
     <p>
      Es gibt also genau eine lineare Relation auf einer Grundmenge
-     <math tex="M">
-     </math>
+     $M$
      , nämlich
-     <math tex="R=M\times M">
-     </math>
+     $R=M\times M$
      , bei der jedes Element mit jedem anderen in Relation steht.
     </p>
    </param>
@@ -422,8 +372,7 @@
     Äquivalenzklasse
    </i>
    genannt und mit
-   <math tex="[x]">
-   </math>
+   $[x]$
    bezeichnet:
   </p>
   <template name="definition
@@ -447,8 +396,7 @@
   </template>
   <p>
    Wenn du die Relation explizit angeben musst, kannst du auch
-   <math tex="[x]_R">
-   </math>
+   $[x]_R$
    schreiben. Es ist dann
   </p>
   <template name="formel">
@@ -459,11 +407,9 @@
   </template>
   <p>
    Das Element
-   <math tex="x">
-   </math>
+   $x$
    in der Schreibweise
-   <math tex="[x]">
-   </math>
+   $[x]$
    nennt man
    <i>
     Repräsentant
@@ -473,14 +419,11 @@
     Vertreter
    </i>
    . Ist unsere obige Definition für Äquivalenzklassen korrekt im Sinne, dass
-   <math tex="[x]=[y]">
-   </math>
+   $[x]=[y]$
    wenn
-   <math tex="x">
-   </math>
+   $x$
    und
-   <math tex="y">
-   </math>
+   $y$
    äquivalent zueinander sind? Dies beantwortet der folgende Satz:
   </p>
   <template name="satz
@@ -488,32 +431,23 @@
    <param name="beweis">
     <p>
      Sei
-     <math tex="x\sim y">
-     </math>
+     $x\sim y$
      . Zu zeigen ist, dass
-     <math tex="[x]\subseteq [y]">
-     </math>
+     $[x]\subseteq [y]$
      und
-     <math tex="a\in [x]">
-     </math>
+     $a\in [x]$
      beliebig. Es gilt damit
-     <math tex="a\sim x">
-     </math>
+     $a\sim x$
      . Da außerdem
-     <math tex="x\sim y">
-     </math>
+     $x\sim y$
      ist, folgt aus der Transitivität der Äquivalenzrelation, dass auch
-     <math tex="a\sim y">
-     </math>
+     $a\sim y$
      ist. Dies bedeutet aber
-     <math tex="a\in [y]">
-     </math>
+     $a\in [y]$
      . Da
-     <math tex="a\in [x]">
-     </math>
+     $a\in [x]$
      beliebig war, ist
-     <math tex="[x]\subseteq[y]">
-     </math>
+     $[x]\subseteq[y]$
      .
     </p>
     <p>
@@ -533,20 +467,15 @@
    <param name="beweis">
     <p>
      Sei
-     <math tex="[x]=[y]">
-     </math>
+     $[x]=[y]$
      . Damit ist
-     <math tex="[x]\subseteq [y]">
-     </math>
+     $[x]\subseteq [y]$
      , also
-     <math tex="x\in[x]">
-     </math>
+     $x\in[x]$
      , da
-     <math tex="x\sim x">
-     </math>
+     $x\sim x$
      aufgrund der Reflexivität der Äquivalenzrelation. Daraus folgt, dass
-     <math tex="x\in [y]">
-     </math>
+     $x\in [y]$
      und somit nach Definition
     </p>
    </param>
@@ -590,14 +519,12 @@
      </li>
      <li>
       Es gibt zwei Äquivalenzklassen: Die Menge
-      <math tex="\N_{\ge1}">
-      </math>
+      $\N_{\ge1}$
       in die Menge der geraden und in die Menge der ungeraden Zahlen.
      </li>
      <li>
       Jede Äquivalenzklasse ist einelementig. Die Grundmenge zerfällt also in die Menge
-      <math tex="\{\,\{x\}\,|\,x\in M\}">
-      </math>
+      $\{\,\{x\}\,|\,x\in M\}$
       (Beachte, dass dies eine Menge von
       <i>
        einelementigen Mengen
@@ -613,17 +540,14 @@
     <ol>
      <li>
       „
-      <math tex="y">
-      </math>
+      $y$
       gehen in dieselbe Klasse“ auf der Menge aller Schüler einer Schule
      </li>
      <li>
       „
-      <math tex="y">
-      </math>
+      $y$
       besitzen denselben Rest bei der Division durch zwei“ auf der Menge
-      <math tex="\N_{\ge1}">
-      </math>
+      $\N_{\ge1}$
      </li>
      <li>
       „
@@ -663,27 +587,22 @@
    <param name="definition">
     <p>
      Eine Zerlegung einer Menge
-     <math tex="P">
-     </math>
+     $P$
      von Teilmengen von
-     <math tex="M">
-     </math>
+     $M$
      , so dass
     </p>
     <ul>
      <li>
       die Vereinigung aller Mengen von
-      <math tex="M">
-      </math>
+      $M$
       ergibt:
      </li>
      <li>
       alle Mengen von
-      <math tex="P">
-      </math>
+      $P$
       paarweise disjunkt sind:
-      <math tex="\forall A, B\in P: A\ne B \Rightarrow A \cap B = \emptyset">
-      </math>
+      $\forall A, B\in P: A\ne B \Rightarrow A \cap B = \emptyset$
      </li>
      <li>
       alle Mengen von
@@ -701,8 +620,7 @@
   </h2>
   <p>
    Wollen wir nun den Zusammenhang zwischen Äquivalenzrelationen und der Zerlegung einer Menge untersuchen. Im einführenden Beispiel haben wir gesehen, dass eine Äquivalenzrelation eine Zerlegung der Grundmenge definiert, indem man alle äquivalenten Elemente in einer Teilmenge, der Äquivalenzklasse, zusammenfasst. Eine solche Zerlegung einer Menge durch eine Äquivalenzrelation wird mit
-   <math tex="{M/{\sim}}">
-   </math>
+   ${M/{\sim}}$
    bezeichnet und in bestimmten Kontexten der Mathematik
    <i>
     Quotientenraum
@@ -712,11 +630,9 @@
     Faktorraum
    </i>
    genannt. Die Zerlegung
-   <math tex="{M/{\sim}}">
-   </math>
+   ${M/{\sim}}$
    der Grundmenge
-   <math tex="M">
-   </math>
+   $M$
    ist also:
   </p>
   <template name="formel">
@@ -746,11 +662,9 @@
    <param name="beweis">
     <p>
      Um zu zeigen, dass
-     <math tex="{M/{\sim}}:= \{ [x]\,|\,x\in M\}">
-     </math>
+     ${M/{\sim}}:= \{ [x]\,|\,x\in M\}$
      eine Zerlegung von
-     <math tex="M">
-     </math>
+     $M$
      ist, müssen wir folgende Behauptungen beweisen:
     </p>
     <template name="beweisschritt
@@ -767,11 +681,9 @@
      <param name="beweisschritt">
       <p>
        Es ist genau dann
-       <math tex="\bigcup_{A\in P} A \subseteq M">
-       </math>
+       $\bigcup_{A\in P} A \subseteq M$
        und wenn
-       <math tex="M\subseteq \bigcup_{A\in P} A">
-       </math>
+       $M\subseteq \bigcup_{A\in P} A$
        ist.
       </p>
       <template name="beweisschritt
@@ -788,11 +700,9 @@
        <param name="beweisschritt">
         <p>
          Jede Äquivalenzklasse
-         <math tex="\bigcup_{A\in P} A">
-         </math>
+         $\bigcup_{A\in P} A$
          eine Teilmenge von
-         <math tex="M">
-         </math>
+         $M$
          .
         </p>
        </param>
@@ -811,14 +721,11 @@
        <param name="beweisschritt">
         <p>
          Sei
-         <math tex="R">
-         </math>
+         $R$
          das Element
-         <math tex="x">
-         </math>
+         $x$
          in Relation zu sich selbst steht, ist
-         <math tex="[x]\in P">
-         </math>
+         $[x]\in P$
          und damit
         </p>
         <template name="formel">
@@ -829,11 +736,9 @@
         </template>
         <p>
          Da
-         <math tex="x">
-         </math>
+         $x$
          beliebig war, ist
-         <math tex="M\subseteq \bigcup_{A\in P} A">
-         </math>
+         $M\subseteq \bigcup_{A\in P} A$
          .
         </p>
        </param>
@@ -854,14 +759,11 @@
      <param name="beweisschritt">
       <p>
        Seien
-       <math tex="A,B\in P">
-       </math>
+       $A,B\in P$
        mit
-       <math tex="A\ne B">
-       </math>
+       $A\ne B$
        . Dann ist
-       <math tex="B=[y]">
-       </math>
+       $B=[y]$
        für ein
       </p>
       <p>
@@ -869,35 +771,25 @@
         Widerspruchsbeweis:
        </i>
        Sei
-       <math tex="a\in M">
-       </math>
+       $a\in M$
        mit
-       <math tex="a\in [y]">
-       </math>
+       $a\in [y]$
        und
-       <math tex="a\in [x]">
-       </math>
+       $a\in [x]$
        . Damit ist
-       <math tex="a\sim x">
-       </math>
+       $a\sim x$
        und
-       <math tex="a\sim y">
-       </math>
+       $a\sim y$
        . Aus der Transitivität folgt
-       <math tex="x\sim y">
-       </math>
+       $x\sim y$
        und damit
-       <math tex="[x]=[y]">
-       </math>
+       $[x]=[y]$
        aus dem Satz über den Zusammenhang zwischen Äquivalenzklassen und der Äquivalenz der Repräsentanten des vorherigem Abschnitts. Jedoch ist
-       <math tex="A=[x]=[y]=B">
-       </math>
+       $A=[x]=[y]=B$
        ein Widerspruch zu Annahme
-       <math tex="A\ne B">
-       </math>
+       $A\ne B$
        , so dass
-       <math tex="A\cap B=\emptyset">
-       </math>
+       $A\cap B=\emptyset$
        sein muss.
       </p>
      </param>
@@ -916,14 +808,11 @@
      <param name="beweisschritt">
       <p>
        Sei
-       <math tex="A=[x]">
-       </math>
+       $A=[x]$
        für ein
-       <math tex="x\in M">
-       </math>
+       $x\in M$
        . Wegen der Reflexivität von der Äquivalenzrelation ist
-       <math tex="A=[x]\ne \emptyset">
-       </math>
+       $A=[x]\ne \emptyset$
        ist.
       </p>
      </param>
@@ -937,14 +826,11 @@
   </template>
   <p>
    Doch wie sieht es umgekehrt aus? Kannst du aus einer vorgegebenen Partition
-   <math tex="P">
-   </math>
+   $P$
    einer Menge
-   <math tex="M">
-   </math>
+   $M$
    so eine Äquivalenzrelation definieren, dass
-   <math tex="{M/{\sim}}=P">
-   </math>
+   ${M/{\sim}}=P$
    ist?
   </p>
   <template name="frage
@@ -952,8 +838,7 @@
    <param name="antwort">
     <p>
      Damit die induzierte Menge der Äquivalenzrelation gleich der Partitionsmenge
-     <math tex="P">
-     </math>
+     $P$
      sein kann, muss für alle
     </p>
     <template name="formel">
@@ -983,11 +868,9 @@
    <param name="satz">
     <p>
      Sei
-     <math tex="P">
-     </math>
+     $P$
      eine Zerlegung dieser Menge. Dann gibt es genau eine Äquivalenzrelation
-     <math tex="\sim">
-     </math>
+     $\sim$
      , die diese Zerlegung induziert, für die also
     </p>
     <template name="formel">
@@ -1008,11 +891,9 @@
    <param name="beweis">
     <p>
      Sei
-     <math tex="M">
-     </math>
+     $M$
      eine Menge und
-     <math tex="P">
-     </math>
+     $P$
      eine Zerlegung dieser Menge.
     </p>
     <template name="beweisschritt
@@ -1025,8 +906,7 @@
      <param name="beweisschritt">
       <p>
        Wir definieren die Relation
-       <math tex="\sim">
-       </math>
+       $\sim$
        über folgende Definition:
       </p>
       <template name="formel">
@@ -1061,11 +941,9 @@
          <param name="beweisschritt">
           <p>
            Sei
-           <math tex="P">
-           </math>
+           $P$
            die Grundmenge ergibt, gibt es eine Menge
-           <math tex="A\in P">
-           </math>
+           $A\in P$
            mit
           </p>
           <template name="formel">
@@ -1103,8 +981,7 @@
  ">
          <param name="ziel">
           <p>
-           <math tex="\sim">
-           </math>
+           $\sim$
            ist transitiv
           </p>
          </param>
@@ -1116,50 +993,35 @@
          <param name="beweisschritt">
           <p>
            Sei
-           <math tex="x,y,z\in M">
-           </math>
+           $x,y,z\in M$
            mit
-           <math tex="x\sim y">
-           </math>
+           $x\sim y$
            und
-           <math tex="y\sim z">
-           </math>
+           $y\sim z$
            . Dann gibt es ein
-           <math tex="A\in P">
-           </math>
+           $A\in P$
            und ein
-           <math tex="B\in P">
-           </math>
+           $B\in P$
            mit
-           <math tex="x,y\in A">
-           </math>
+           $x,y\in A$
            und
-           <math tex="y,z\in B">
-           </math>
+           $y,z\in B$
            . Damit ist
-           <math tex="A\cap B\ne \emptyset">
-           </math>
+           $A\cap B\ne \emptyset$
            , da
-           <math tex="y">
-           </math>
+           $y$
            sowohl ein Element von
-           <math tex="A">
-           </math>
+           $A$
            als auch ein Element von
-           <math tex="B">
-           </math>
+           $B$
            ist. Da
-           <math tex="P">
-           </math>
+           $P$
            eine Partition ist, muss
-           <math tex="A=B">
-           </math>
+           $A=B$
            sein. Daraus folgt
-           <math tex="x,z\in A=B">
-           </math>
+           $x,z\in A=B$
            und damit
-           <math tex="x\sim z">
-           </math>
+           $x\sim z$
            .
           </p>
          </param>
@@ -1170,8 +1032,7 @@
  ">
        <param name="ziel">
         <p>
-         <math tex="\forall A\in P:\forall x\in A: [x]=A">
-         </math>
+         $\forall A\in P:\forall x\in A: [x]=A$
         </p>
        </param>
        <param name="name">
@@ -1182,19 +1043,16 @@
        <param name="beweisschritt">
         <p>
          Sei
-         <math tex="A\in P">
-         </math>
+         $A\in P$
          und
-         <math tex="x\in A">
-         </math>
+         $x\in A$
          beliebig.
         </p>
         <template name="beweisschritt
  ">
          <param name="ziel">
           <p>
-           <math tex="[x] \subseteq A">
-           </math>
+           $[x] \subseteq A$
           </p>
          </param>
          <param name="name">
@@ -1205,26 +1063,19 @@
          <param name="beweisschritt">
           <p>
            Sei
-           <math tex="y\in [x]">
-           </math>
+           $y\in [x]$
            beliebig, also
-           <math tex="x,y\in B">
-           </math>
+           $x,y\in B$
            . Da
-           <math tex="x\in A">
-           </math>
+           $x\in A$
            und
-           <math tex="x\in B">
-           </math>
+           $x\in B$
            ist, ist
-           <math tex="A=B">
-           </math>
+           $A=B$
            , weil verschiedene Mengen von
-           <math tex="P">
-           </math>
+           $P$
            disjunkt sind. Damit ist
-           <math tex="y\in B=A">
-           </math>
+           $y\in B=A$
            , was zu beweisen war.
           </p>
          </param>
@@ -1233,8 +1084,7 @@
  ">
          <param name="ziel">
           <p>
-           <math tex="A\subseteq [x]">
-           </math>
+           $A\subseteq [x]$
           </p>
          </param>
          <param name="name">
@@ -1245,31 +1095,24 @@
          <param name="beweisschritt">
           <p>
            Sei
-           <math tex="y\in A">
-           </math>
+           $y\in A$
            beliebig. Damit ist sowohl
-           <math tex="x">
-           </math>
+           $x$
            als auch
-           <math tex="A">
-           </math>
+           $A$
            und damit
-           <math tex="y\sim x">
-           </math>
+           $y\sim x$
            . Daraus folgt
-           <math tex="y\in [x]">
-           </math>
+           $y\in [x]$
            . Da
-           <math tex="y\in A">
-           </math>
+           $y\in A$
            beliebig war, ist
           </p>
          </param>
         </template>
         <p>
          Aus den Behauptungen (2.1) und (2.2) folgt, dass
-         <math tex="[x]=A">
-         </math>
+         $[x]=A$
          ist.
         </p>
        </param>
@@ -1278,8 +1121,7 @@
  ">
        <param name="ziel">
         <p>
-         <math tex="M/{\sim} = P">
-         </math>
+         $M/{\sim} = P$
         </p>
        </param>
        <param name="name">
@@ -1292,8 +1134,7 @@
  ">
          <param name="ziel">
           <p>
-           <math tex="M/{\sim} \subseteq P">
-           </math>
+           $M/{\sim} \subseteq P$
           </p>
          </param>
          <param name="name">
@@ -1304,17 +1145,13 @@
          <param name="beweisschritt">
           <p>
            Sei
-           <math tex="\bigcup_{A\in P} A=M">
-           </math>
+           $\bigcup_{A\in P} A=M$
            ist, gibt es ein
-           <math tex="A\in P">
-           </math>
+           $A\in P$
            mit
-           <math tex="x\in A">
-           </math>
+           $x\in A$
            . Aus der Behauptung (2) folgt, dass
-           <math tex="[x]=A\in P">
-           </math>
+           $[x]=A\in P$
            ist.
           </p>
          </param>
@@ -1323,8 +1160,7 @@
  ">
          <param name="ziel">
           <p>
-           <math tex="P \subseteq M/{\sim}">
-           </math>
+           $P \subseteq M/{\sim}$
           </p>
          </param>
          <param name="name">
@@ -1335,20 +1171,15 @@
          <param name="beweisschritt">
           <p>
            Sei
-           <math tex="A\in P">
-           </math>
+           $A\in P$
            beliebig. Da alle Mengen aus
-           <math tex="P">
-           </math>
+           $P$
            nach Definition nicht leer sind, gibt es ein
-           <math tex="x\in M">
-           </math>
+           $x\in M$
            mit
-           <math tex="x\in A">
-           </math>
+           $x\in A$
            . Aus Behauptung (2) folgt, dass
-           <math tex="A=[x]\in M/{\sim}">
-           </math>
+           $A=[x]\in M/{\sim}$
            ist.
           </p>
          </param>
@@ -1370,21 +1201,17 @@
      <param name="beweisschritt">
       <p>
        Sei
-       <math tex="\sim_2">
-       </math>
+       $\sim_2$
        eine weitere Äquivalenzrelation mit
-       <math tex="P=M/{\sim_2}">
-       </math>
+       $P=M/{\sim_2}$
        . Sei
-       <math tex="x,y\in M">
-       </math>
+       $x,y\in M$
        beliebig. Es gilt dann
       </p>
       <template name="formel">
        <param name="1">
         <p>
-         <math tex="\begin{align} x\sim_2 y &amp; \Leftrightarrow \exists [a] \in M/{\sim_2}: x,y\in [a] \\[0.3em] &amp; \ \left\downarrow\ P=M/{\sim_2}\right.\\[0.3em] &amp; \Leftrightarrow \exists A\in P: x,y\in A \end{align}">
-         </math>
+         $\begin{align} x\sim_2 y &amp; \Leftrightarrow \exists [a] \in M/{\sim_2}: x,y\in [a] \\[0.3em] &amp; \ \left\downarrow\ P=M/{\sim_2}\right.\\[0.3em] &amp; \Leftrightarrow \exists A\in P: x,y\in A \end{align}$
         </p>
        </param>
       </template>
